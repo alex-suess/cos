@@ -42,6 +42,7 @@ h1 { // Überschrift der höchsten Stufe
 ```
 
 **TailwindCss**
+
 https://tailwindcss.com/docs/installation
 
 Ein Utility-Based Framework für CSS, das den Umgang mit der Sprache vereinfachen soll.
@@ -62,6 +63,7 @@ alert('Hello World');
 ```
 
 **Vue.JS** 
+
 https://vuejs.org/guide/introduction.html
 
 JavaScript Framework, mit dem eine App einfach in viederverwendbare Komponenten zerteilt werden kann.
