@@ -1,7 +1,7 @@
 # cos
 Landingpage for our DnD CoS Campaign
 
-## How do we build a web page?
+## How do we build a web App?
 
 * HTML
 * CSS
