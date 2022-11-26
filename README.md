@@ -1,69 +1,35 @@
 # cos
-Landingpage for our DnD CoS Campaign
 
-## How do we build a web App?
+This template should help get you started developing with Vue 3 in Vite.
 
-* HTML
-* CSS
-  * TailwindCSS
-* JavaScript
-  * Vue.JS
+## Recommended IDE Setup
 
-### HTML
-https://www.w3schools.com/html/default.asp
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-* Grundstruktur des Dokuments
-* Inhalt mit semantischen Bezeichnern
+## Customize configuration
 
-Beispiel:
-```
-<h1>Das ist eine Überschrift der höchsten Stufe</h1>
-<h6>Das ist eine Überschrift der niedrigsten Stufe</h6>
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-<ul>
-  <li>Eine Liste</li>
-  <li>Mit zwei Einträgen</li>
-</ul>
+## Project Setup
+
+```sh
+npm install
 ```
 
-### CSS
-https://www.w3schools.com/css/default.asp
+### Compile and Hot-Reload for Development
 
-Wird verwendet, um HTML Elemente zu stylen.
-CSS beschreibt das Aussehen des Dokuments.
-
-Beispiel:
-```
-h1 { // Überschrift der höchsten Stufe
-  color: #000;        // schwarz
-  font-weight: 900    // fettgedruckt
-  font-size: 36px;    // Schriftgröße
-}
+```sh
+npm run dev
 ```
 
-**TailwindCss**
+### Compile and Minify for Production
 
-https://tailwindcss.com/docs/installation
-
-Ein Utility-Based Framework für CSS, das den Umgang mit der Sprache vereinfachen soll.
-
-Beispiel:
-```
-<h1 class="text-black font-bold text-xl">Hello World</h1>
+```sh
+npm run build
 ```
 
-### JavaScript
-https://www.w3schools.com/js/default.asp
+### Lint with [ESLint](https://eslint.org/)
 
-Sprache, mit der Programme im Browser des Users ausgeführt werden können.
-
-Beispiel:
-``` 
-alert('Hello World');
+```sh
+npm run lint
 ```
-
-**Vue.JS** 
-
-https://vuejs.org/guide/introduction.html
-
-JavaScript Framework, mit dem eine App einfach in viederverwendbare Komponenten zerteilt werden kann.
